@@ -6,7 +6,7 @@
   "homepage": "https://abhinandnr.github.io/formula-builder/",
   "scripts": {
     "dev": "vite",
-    "build": "node ./scripts/build-debug.cjs && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
